@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="./index.js" defer></script>
+        <title>OMDb - Online Movie Database</title>
+    </head>
+    <body class="body">
+        <nav class="navigation-bar">
+            <img src="./images/logo.png" class="logo" alt="OMDb Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">WatchList</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-container">
+            <label for="">Title:</label>
+            <input type="text" class="title-search search-bar">
+            <label for="">Year:</label>
+            <input type="text" class="year-search search-bar">
+            <label for="">Plot:</label>
+            <select name="plot" class="option-search search-bar">
+                <option value="short" selected="" class="search">Short</option>
+                <option value="full" class="search">Full</option>
+            </select>
+            <button type="button" class="find search">Find</button>
+            <button type="button" class="refresh search">Refresh</button>
+        </div>
+
+        <div class="movie"></div>
+        <div class="plot"></div>
+        <div class="details"></div>
+
+        <!-- <div class="movie-container">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg" alt="" class="movie-poster">
+            <div class="title-critic-container">
+                <h2 class="movie-title">Inception</h2>
+                <div class="critic-container">
+                    <div class="imdb critic-logo">
+                        <img src="./images/logo-imdb.png" alt="" class="imdb-logo">
+                        <h2 class="critic-rating">100</h2>
+                    </div>
+                    <div class="metacritic critic-logo">
+                        <img src="./images/logo-metacritic.png" alt="" class="metacritic-logo">
+                        <h2 class="critic-rating">100</h2>
+                    </div>
+                    <div class="rotten-tomatoes critic-logo">
+                        <img src="./images/logo-rotten-tomatoes.png" alt="" class="rotten-logo"> 
+                        <h2 class="critic-rating">100</h2>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="plot-container">
+            <h2 class="plot-text">Plot</h2>
+            <h2 class="plot-info">${movies.Plot}</h2>
+        </div> -->
+        <!-- <div class="detail-contianer">
+            <h2 class="detail-text">Details</h2>
+            <div class="details-container">
+                <div class="detail-title">
+                    <h3>Year</h3>
+                    <h3>Rated</h3>
+                    <h3>Release</h3>
+                    <h3>Runtime</h3>
+                </div>
+                <div class="detail-info">
+                    <h3>2010</h3>
+                    <h3>PG-13</h3>
+                    <h3>Jul 16 2010</h3>
+                    <h3>148 minutes</h3>
+                </div>
+            </div>
+        </div> -->
+
+        <footer></footer>
+    </body>
+</html>
